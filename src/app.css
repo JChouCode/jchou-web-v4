@@ -3,9 +3,9 @@
 }
 
 body {
-  font-family: 'Larsseit', 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue',
+  font-family: 'Morion', 'Helvetica Neue',
     Helvetica, Arial, 'Lucida Grande', sans-serif;
-  font-weight: 300;
+  font-weight: normal;
   font-size: 16px;
   color: white;
   margin: 0;
@@ -29,52 +29,29 @@ body {
 }
 
 @font-face {
-  font-family: 'Larsseit';
-  src: url('fonts/Larsseit-ExtraBold.woff2') format('woff2'),
-    url('fonts/Larsseit-ExtraBold.woff') format('woff');
-  font-weight: 800;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Larsseit';
-  src: url('fonts/Larsseit-Bold.woff2') format('woff2'),
-    url('fonts/Larsseit-Bold.woff') format('woff');
-  font-weight: bold;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Larsseit';
-  src: url('fonts/Larsseit.woff2') format('woff2'),
-    url('fonts/Larsseit.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Larsseit';
-  src: url('fonts/Larsseit-Medium.woff2') format('woff2'),
-    url('fonts/Larsseit-Medium.woff') format('woff');
-  font-weight: 500;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Larsseit';
-  src: url('fonts/Larsseit-Light.woff2') format('woff2'),
-    url('fonts/Larsseit-Light.woff') format('woff');
+  font-family: 'Doublewide';
+  src: url('fonts/Doublewide-Light.woff2') format('woff2'),
+    url('fonts/Doublewide-Light.woff') format('woff');
   font-weight: 300;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Larsseit';
-  src: url('fonts/Larsseit-Thin.woff2') format('woff2'),
-    url('fonts/Larsseit-Thin.woff') format('woff');
-  font-weight: 100;
+  font-family: 'Morion';
+  src: url('fonts/Morion-Regular.woff2') format('woff2'),
+    url('fonts/Morion-Regular.woff') format('woff');
+  font-weight: normal;
   font-style: normal;
 }
+
+@font-face {
+  font-family: 'Morion';
+  src: url('fonts/Morion-Bold.woff2') format('woff2'),
+    url('fonts/Morion-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+
 
 @keyframes hover {
   0% {
