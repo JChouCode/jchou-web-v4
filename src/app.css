@@ -2,6 +2,11 @@
   scroll-behavior: smooth;
 }
 
+.content {
+  background: black;
+  color: white;
+}
+
 body {
   font-family: 'Morion', 'Helvetica Neue',
     Helvetica, Arial, 'Lucida Grande', sans-serif;

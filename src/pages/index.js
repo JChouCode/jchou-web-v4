@@ -69,9 +69,30 @@ export default () => (
       <div class="intro-text">
         Hello, my name is Jeffrey and I’m a current student at Cornell University <span class="footnote">1</span> pursuing a B.A in Computer Science & Physics.
         <br></br><br></br>
-        My current interests include software development <span class="footnote">2</span>, planetary science<span class="footnote">3</span>, and statistics. Please feel to reach out at jc2573@cornell.edu
+        My current interests include software development <span class="footnote">2</span>, planetary science <span class="footnote">3</span>, and statistics. Please feel to reach out at jc2573@cornell.edu
         <br></br><br></br>
-        Currently looking for Summer 2020 internship opportunities. Contact me at Github | LinkedIn
+        Currently looking for Summer 2020 internship opportunities. Contact me at <a href="github.com">Github</a> | <a href="linkedin.com">LinkedIn</a>
+      </div>
+    </div>
+    <div class="experience">
+      <div class="experience-title">
+        <h2 id="title-right">Experience</h2>
+        <h2 id="title-left">Experience</h2>
+      </div>
+      <div class="job-content">
+        <span>1. IoTeX - Software Engineer Intern</span><br></br>
+        I spent my last summer interning at IoTeX, an IoT blockchain startup. There, I created and solely managed codelabs.iotex.io, a community hub for IoTeX developers. I also implemented the backend GraphQL api for IoPay discovery feed and feature flag manager using MongoDB and React. Additionally, I developed decentralized apps
+      </div>
+      <div class="job-content">
+        <span>2. NASA Ames - Planetary Science Intern</span><br></br>
+        Interned under Dr. Jack J. Lissauer in Planetary Sciences Division. Performed data analysis on planet formation simulations with Matplotlib in Python. Coauthored one research paper. Operated Mercury v6, hybrid symplectic integrator.
+      </div>
+    </div>
+
+    <div class="languages">
+      <div class="language-title">
+        <h2>Languages</h2>
+        <p>Programming languages I've recently used.</p>
       </div>
     </div>
   </div >
