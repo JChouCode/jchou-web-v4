@@ -106,10 +106,12 @@ header .title-row-temp:nth-child(8) {
 
 .experience {
   margin-top: 11rem;
+  width: 100%;
 }
 
 .experience-title {
   margin-bottom: 5em;
+  overflow: hidden;
 }
 
 .experience-title #title-left {
