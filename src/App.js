@@ -9,6 +9,7 @@ import {Footer} from 'components/Footer'
 import { Helmet } from 'react-helmet'
 import './app.css'
 import { ScrollToTop } from "components/ScrollToTop"
+import { url } from 'inspector';
 
 // Any routes that start with 'dynamic' will be treated as non-static routes
 addPrefetchExcludes(['dynamic'])
@@ -19,7 +20,7 @@ function App() {
       <Helmet>
         <meta charSet="utf-8"></meta>
         <title>Chou</title>
-        <link rel="icon" href="./assets/logo.png"></link>
+        <link rel="icon" type="image/png" href="./../assets/chou-logo-big.png"></link>
         <meta name="description" content="Hi, I’m a student at Cornell University studying Computer Science and Physics.
         My interests include software/fullstack dev, and data science.
         Built with React & GraphQL"></meta>
