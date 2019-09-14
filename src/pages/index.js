@@ -92,8 +92,17 @@ export default () => (
     <div class="languages">
       <div class="language-title">
         <h2>Languages</h2>
-        <p>Programming languages I've recently used.</p>
+        {/* <p>Programming languages I've recently used.</p> */}
       </div>
+      <ul id="language">
+        <li>Python</li>
+        <li>Javascript</li>
+        <li>Typescript</li>
+        <li>Java</li>
+        <li>Golang</li>
+        <li>Solidity</li>
+        <li>OCaml</li>
+      </ul>
     </div>
   </div >
 
